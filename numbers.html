@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+<head></head>
+
+<body>
+
+<script>
+
+var number = prompt("Please enter a number");
+ 
+ len = number.toString().length;
+ 
+if (len == 1)
+    console.log(number + " ones");
+   else if(len == 2)
+   	console.log(number + " ones, " + "tens");
+   else if(len == 3)
+   	console.log(number + " ones, " + "tens, " + "hundreds");
+   else if (len == 4)
+   	console.log(number + " ones, " + "tens, " + "hundreds, " + "thousands");
+   else if(len == 5)
+   	console.log(number + " ones, "+ "tens, " + "hundreds, " + "thousands, " + "ten thousands");
+   else if(len == 6)
+   	console.log(number + "ones, " + "tens, " + "hundreds, " + "thousands, " + "ten thousands, " + " hundreds thousands")
+
+//numbersPlace1 = number % 10;
+//numbersPlace2 = number / 10;
+
+
+//console.log(numbersPlace2);
+</script>
+
+</body>
+
+</html>
